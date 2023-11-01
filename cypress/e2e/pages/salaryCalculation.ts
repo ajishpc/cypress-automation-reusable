@@ -13,6 +13,7 @@ class SalaryCalculation{
         statutProfessionLiberaleRadio:()=>cy.get('#professionliberale'),
         statutPortageSalarialRadio:()=>cy.get('#portageSalarial'),
     }
+    
 
     closeAcceptPopUp(){
         this.elements.acceptPopUpButton().click()
