@@ -23,7 +23,23 @@ class SalaryCalculation{
         this.elements.mensuelNetTextbox().type(mensuelNet)
     }
     clickStatut(statut:string){
-        if
+        if(statut=="NonCadre"){
+
+
+            
+        }
+        else if(statut=="Cadre"){
+
+        }
+        else if(statut=="FunctionPublique"){
+
+        }
+        else if(statut=="ProfessionLiberale"){
+
+        }
+        else if(statut=="PortageSalarial"){
+
+        }
     }
 
 }
