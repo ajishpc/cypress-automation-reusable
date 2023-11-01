@@ -24,21 +24,19 @@ class SalaryCalculation{
     }
     clickStatut(statut:string){
         if(statut=="NonCadre"){
-
-
-            
+            this.elements.statutSalaireNonCadreRadio().click()
         }
         else if(statut=="Cadre"){
-
+            this.elements.statutSalaireCadreRadio().click()
         }
         else if(statut=="FunctionPublique"){
-
+            this.elements.statutFonctionPubliqueRadio().click()
         }
         else if(statut=="ProfessionLiberale"){
-
+            this.elements.statutProfessionLiberaleRadio().click()
         }
         else if(statut=="PortageSalarial"){
-
+            this.elements.statutPortageSalarialRadio().click()
         }
     }
 
