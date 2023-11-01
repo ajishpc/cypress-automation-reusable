@@ -39,6 +39,7 @@ class SalaryCalculation{
             this.elements.statutPortageSalarialRadio().click()
         }
     }
+    
 
 }
 
